@@ -1,0 +1,5 @@
+u = int(input("Enter the initial velocity: "))
+t = int(input("Enter the time taken in seconds: "))
+a = int(input("Enter the acceleration: "))
+distance = u*t + ((a * (t**2)) / 2)
+print(f"The distance is: {distance} meters")

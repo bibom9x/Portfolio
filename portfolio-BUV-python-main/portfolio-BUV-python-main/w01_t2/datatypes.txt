@@ -1,0 +1,7 @@
+a) float - the profit number may contain decimal places
+b) float - a person's weight may contain decimal places (eg. 70.5kg)
+c) str - a book title may include (a-z, A-Z, 0-9)
+d) float - average rainfall might have decimal places
+e) int - number of runs shall just be normal number 
+f) int - the telephone number shall only contain number 
+g) int - dress sizes only require number 
