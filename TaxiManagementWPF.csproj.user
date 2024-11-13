@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <Compile Update="DropFareDialog.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="InputDialog.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="JoinRankDialog.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="LeaveRankDialog.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="PaymentDialog.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="DropFareDialog.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="InputDialog.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="JoinRankDialog.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="LeaveRankDialog.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="PaymentDialog.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,90 @@
+﻿<Window x:Class="TaxiManagementWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Taxi Management" Height="500" Width="800" Background="DarkSlateGray">
+    <Window.Resources>
+        <Style TargetType="TextBox">
+            <Setter Property="Margin" Value="5"/>
+            <Setter Property="Padding" Value="5"/>
+            <Setter Property="BorderBrush" Value="LightGray"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="Background" Value="DarkSlateGray"/>
+            <Setter Property="Height" Value="25"/>
+            <Setter Property="FontSize" Value="12"/>
+            <Setter Property="FontFamily" Value="Consolas"/>
+            <Setter Property="Foreground" Value="LightGreen"/>
+        </Style>
+
+        <Style TargetType="Button">
+            <Setter Property="Margin" Value="6"/>
+            <Setter Property="Padding" Value="5"/>
+            <Setter Property="Height" Value="29"/>
+            <Setter Property="Background" Value="DarkSlateGray"/>
+            <Setter Property="Foreground" Value="LightGreen"/>
+            <Setter Property="BorderBrush" Value="LightGray"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="FontWeight" Value="SemiBold"/>
+            <Setter Property="FontSize" Value="12"/>
+            <Setter Property="FontFamily" Value="Consolas"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border Background="{TemplateBinding Background}"
+                                BorderBrush="{TemplateBinding BorderBrush}"
+                                BorderThickness="{TemplateBinding BorderThickness}"
+                                CornerRadius="5">
+                            <ContentPresenter HorizontalAlignment="Center"
+                                              VerticalAlignment="Center"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Background" Value="Black"/>
+                </Trigger>
+                <Trigger Property="IsPressed" Value="True">
+                    <Setter Property="Background" Value="Black"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+
+        <!-- Styles for TextBlock -->
+        <Style TargetType="TextBlock">
+            <Setter Property="FontSize" Value="12"/>
+            <Setter Property="FontFamily" Value="Consolas"/>
+            <Setter Property="Margin" Value="5"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+            <Setter Property="Foreground" Value="LightGreen"/>
+        </Style>
+
+        <Style TargetType="ListBox">
+            <Setter Property="FontSize" Value="12"/>
+            <Setter Property="FontFamily" Value="Consolas"/>
+            <Setter Property="Foreground" Value="LightGreen"/>
+            <Setter Property="Background" Value="DarkSlateGray"/>
+        </Style>
+
+    </Window.Resources>
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="130*"/>
+            <ColumnDefinition Width="11*"/>
+            <ColumnDefinition Width="240*"/>
+        </Grid.ColumnDefinitions>
+
+        <StackPanel Grid.Column="0" Margin="10,0,10,0" VerticalAlignment="Center" Grid.ColumnSpan="1">
+            <TextBlock FontSize="18" FontWeight="SemiBold" Text="Taxi Management System" HorizontalAlignment="Center" Margin="10" Width="223"/>
+            <Button Content="-.---.-SDAM ASSINGMENT-._---." Cursor="Hand" Click="Introduction_Click" HorizontalAlignment="Center" BorderThickness="0"/>
+            <Button Content="Join Rank" Cursor="Hand" Click="JoinRankButton_Click" HorizontalAlignment="Left" BorderThickness="0"/>
+            <Button Content="Leave Rank" Cursor="Hand" Click="LeaveRankButton_Click" HorizontalAlignment="Left" BorderThickness="0"/>
+            <Button Content="Drop Fare" Cursor="Hand" Click="DropFareButton_Click" HorizontalAlignment="Left" BorderThickness="0"/>
+            <Button Content="View Taxi Locations" Cursor="Hand" Click="ViewTaxiLocationsButton_Click" HorizontalAlignment="Left" BorderThickness="0"/>
+            <Button Content="View Financial Report" Cursor="Hand" Click="ViewFinancialReportButton_Click" HorizontalAlignment="Left" BorderThickness="0"/>
+            <Button Content="View Transaction Log" Cursor="Hand" Click="ViewTransactionLogButton_Click" HorizontalAlignment="Left" BorderThickness="0"/>
+        </StackPanel>
+
+        <ListBox x:Name="OutputListBox" Grid.Column="2" Margin="10,10,10,10"/>
+    </Grid>
+</Window>
