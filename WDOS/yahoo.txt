@@ -1,0 +1,10 @@
+HTTP/1.1 301 Moved Permanently
+Date: Sun, 07 Jul 2024 19:38:03 GMT
+Connection: keep-alive
+Server: ATS
+Cache-Control: no-store
+Content-Type: text/html
+Content-Language: en
+Location: https://www.yahoo.com/
+Content-Length: 1
+

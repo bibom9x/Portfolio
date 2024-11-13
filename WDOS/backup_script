@@ -1,0 +1,26 @@
+#!/bin/bash
+
+#########
+# Author: Name
+# Date Created: YYYY-MM-DD
+# Last Modified:
+# Description
+# Usage: ./backup_script
+#########
+
+backup_dir="$HOME/backup"
+
+mkdir -p "$backup_dir"
+
+archive_file="$backup_dir/home_backup_$(date +%Y%m%d%H%M%S).tar"
+
+tar -cd "$archive_file" "$HOME"/*
+
+if [ $? -eq 0 ]; then
+  echo "Backup successful. Saved as $archive_file"
+else
+  echo "Backup failed"
+  exit 1
+fi
+
+exit 0
