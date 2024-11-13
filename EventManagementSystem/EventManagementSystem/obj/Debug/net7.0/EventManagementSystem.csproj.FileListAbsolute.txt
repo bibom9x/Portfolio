@@ -1,0 +1,14 @@
+C:\Users\bibom\OneDrive - buv.edu.vn\EventManagementSystem\EventManagementSystem\obj\Debug\net7.0\EventManagementSystem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bibom\OneDrive - buv.edu.vn\EventManagementSystem\EventManagementSystem\obj\Debug\net7.0\EventManagementSystem.AssemblyInfoInputs.cache
+C:\Users\bibom\OneDrive - buv.edu.vn\EventManagementSystem\EventManagementSystem\obj\Debug\net7.0\EventManagementSystem.AssemblyInfo.cs
+C:\Users\bibom\OneDrive - buv.edu.vn\EventManagementSystem\EventManagementSystem\obj\Debug\net7.0\EventManagementSystem.csproj.CoreCompileInputs.cache
+C:\Users\bibom\OneDrive - buv.edu.vn\EventManagementSystem\EventManagementSystem\bin\Debug\net7.0\EventManagementSystem.exe
+C:\Users\bibom\OneDrive - buv.edu.vn\EventManagementSystem\EventManagementSystem\bin\Debug\net7.0\EventManagementSystem.deps.json
+C:\Users\bibom\OneDrive - buv.edu.vn\EventManagementSystem\EventManagementSystem\bin\Debug\net7.0\EventManagementSystem.runtimeconfig.json
+C:\Users\bibom\OneDrive - buv.edu.vn\EventManagementSystem\EventManagementSystem\bin\Debug\net7.0\EventManagementSystem.dll
+C:\Users\bibom\OneDrive - buv.edu.vn\EventManagementSystem\EventManagementSystem\bin\Debug\net7.0\EventManagementSystem.pdb
+C:\Users\bibom\OneDrive - buv.edu.vn\EventManagementSystem\EventManagementSystem\obj\Debug\net7.0\EventManagementSystem.dll
+C:\Users\bibom\OneDrive - buv.edu.vn\EventManagementSystem\EventManagementSystem\obj\Debug\net7.0\refint\EventManagementSystem.dll
+C:\Users\bibom\OneDrive - buv.edu.vn\EventManagementSystem\EventManagementSystem\obj\Debug\net7.0\EventManagementSystem.pdb
+C:\Users\bibom\OneDrive - buv.edu.vn\EventManagementSystem\EventManagementSystem\obj\Debug\net7.0\EventManagementSystem.genruntimeconfig.cache
+C:\Users\bibom\OneDrive - buv.edu.vn\EventManagementSystem\EventManagementSystem\obj\Debug\net7.0\ref\EventManagementSystem.dll
